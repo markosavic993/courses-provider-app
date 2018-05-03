@@ -1,7 +1,7 @@
 from flask_restplus import Resource
 
-from main import DAO
 from config import api, ns
+from main import DAO
 from model import course, attendee
 
 
