@@ -26,7 +26,7 @@ def generate_data():
                         "email": "Petar.Misic@zuhlke.com"
                     }]})
     DAO.create({"name": "Docker",
-                "instructor": "Janko Sokolovic",
+                "instructor": "Igor Spasic",
                 "description": "An introduction workshop to Docker with hadn practical approach.",
                 "attendees": [{
                     "attendeeId": 126,
@@ -52,4 +52,4 @@ DAO = CourseDao()
 generate_data()
 
 if __name__ == '__main__':
-    app.run(debug=True, ssl_context='adhoc')
+    app.run(debug=True)
